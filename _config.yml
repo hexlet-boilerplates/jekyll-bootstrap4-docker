@@ -4,8 +4,8 @@ header_title: "Jekyll Bootstrap 4 with Docker"
 email:       your@ema.il
 author:      Your Name
 description: "Jekyll static blog boilerplate with Bootstrap 4 and Docker"
-baseurl:     ""
-url:         ""
+baseurl:     "/jekyll-bootstrap4-docker"
+url:         "https://hexlet-boilerplates.github.io"
 date_format: "%-d.%m.%Y"
 
 # Google services

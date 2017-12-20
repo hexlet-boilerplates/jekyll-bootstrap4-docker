@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/hello-world/</loc>
+      <loc>https://hexlet-boilerplates.github.io/hello-world/</loc>
       
         <lastmod>2017-12-20T00:00:00-06:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://0.0.0.0:4000/features/</loc>
+      <loc>https://hexlet-boilerplates.github.io/features/</loc>
       
         <lastmod>2017-12-18T00:00:00-06:00</lastmod>
       
@@ -38,9 +38,9 @@
 
     
     <url>
-      <loc>http://0.0.0.0:4000</loc>
+      <loc>https://hexlet-boilerplates.github.io</loc>
       
-        <lastmod>2017-12-20T11:50:26-06:00</lastmod>
+        <lastmod>2017-12-20T12:45:13-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -56,9 +56,9 @@
 
     
     <url>
-      <loc>http://0.0.0.0:4000</loc>
+      <loc>https://hexlet-boilerplates.github.io</loc>
       
-        <lastmod>2017-12-20T11:50:26-06:00</lastmod>
+        <lastmod>2017-12-20T12:45:13-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -79,9 +79,9 @@
 
     
     <url>
-      <loc>http://0.0.0.0:4000</loc>
+      <loc>https://hexlet-boilerplates.github.io</loc>
       
-        <lastmod>2017-12-20T11:50:26-06:00</lastmod>
+        <lastmod>2017-12-20T12:45:13-06:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

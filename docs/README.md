@@ -1,6 +1,10 @@
 # Jekyll Bootstrap 4 Boilerplate Theme + Docker
 
-This is a complete Dockerized Jekyll setup with a custom Bootstrap 4 theme. You can ignore Docker stuff if you want and use Jekyll directly.
+Demo: https://hexlet-boilerplates.github.io/jekyll-bootstrap4-docker/
+
+This is a complete Dockerized Jekyll setup with a custom Bootstrap 4 theme. The setup is compatible with Github Pages: there are no unsupported plugins here.
+
+You can ignore Docker stuff if you want and use Jekyll directly.
 
 ## Usage with Docker
 
