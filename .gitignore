@@ -1,0 +1,5 @@
+*.gem
+_site/
+_deleted_posts/
+.DS_Store
+.sass-cache
