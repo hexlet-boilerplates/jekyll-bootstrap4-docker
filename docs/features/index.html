@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Features &#8211; Jekyll Bootstrap 4 with Docker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Take meta info from current page, if possible -->
+    <meta name="description" content="Jekyll static blog boilerplate with Bootstrap 4 and Docker">
+    <meta name="author" content="Your Name">
+    <meta name="keywords" content="">
+    <link rel="canonical" href="http://0.0.0.0:4000/features/">
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Jekyll Bootstrap 4 with Docker" href="/feed.xml" />
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- Our style -->
+    <link rel="stylesheet" href="/css/style.css?201712201150" type="text/css">
+
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_EN">
+    <meta property="fb:app_id" content="1414002802233483" />
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Features">
+    <meta property="og:image" content="http://0.0.0.0:4000/images/tree.jpg">
+
+    <meta property="og:description" content="Jekyll static blog boilerplate with Bootstrap 4 and Docker">
+    <meta property="og:url" content="http://0.0.0.0:4000/features/">
+    <meta property="og:site_name" content="Jekyll Bootstrap 4 with Docker">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+        <meta name="twitter:site" content="@hexlet" />
+    
+    <meta name="twitter:title" content="Features" />
+    <meta name="twitter:description" content="Jekyll static blog boilerplate with Bootstrap 4 and Docker" />
+    <meta name="twitter:url" content="http://0.0.0.0:4000/features/" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/images/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/images/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/images/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/images/favicons/mstile-310x310.png" />
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <script src="https://use.fontawesome.com/6d58e09dc1.js"></script>
+
+    <script src="/js/likely.js"></script>
+    <link rel="stylesheet" href="/css/likely.css">
+
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1360700-62']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+    Jekyll <strong>Bootstrap 4</strong>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/about"><span class="mr-2 fa fa-user"></span>About</a>
+      </li>
+      <li class="nav-item mr-2">
+        <a class="nav-link" href="/contacts"><span class="mr-2 fa fa-envelope-o"></span>Contacts</a>
+      </li>
+      
+      
+
+      
+
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/hexlet"><span class="mr-1 fa fa-twitter"></span></a>
+        </li>
+      
+
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://facebook.com/hexlet"><span class="mr-1 fa fa-facebook"></span></a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/hexlet"><span class="mr-1 fa fa-github"></span></a>
+        </li>
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml"><span class="mr-1 fa fa-rss"></span></a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col"><div class="hexlet_guides_post_header my-4">
+  <h1>Features</h1>
+</div>
+
+<article class="post-content">
+  <p>Don’t you hate when designers do this: “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad quo quae at sint nulla architecto quam temporibus dolorum voluptates officiis, accusantium illo officia aliquam, quibusdam velit unde ab hic!”</p>
+
+<p>A list:</p>
+
+<ol>
+  <li>Yes</li>
+  <li>Maybe</li>
+  <li>I <strong>guess</strong> no</li>
+  <li>Whatever <em>you</em> need</li>
+</ol>
+
+<p>Chaotic list:</p>
+
+<ul>
+  <li>Yes</li>
+  <li>Maybe</li>
+  <li>I <strong>guess</strong> no</li>
+  <li>Whatever <em>you</em> need</li>
+</ul>
+
+<p>Some headings:</p>
+
+<h1 id="heading-1">Heading 1</h1>
+
+<p>Ooh, so much white space!</p>
+
+<h2 id="heading-2">Heading 2</h2>
+
+<p>We love it.</p>
+
+<h3 id="heading-3">Heading 3</h3>
+
+<p>Don’t be afraid.</p>
+
+<h4 id="heading-4">Heading 4</h4>
+
+<p>Don’t use heading 5, you don’t need it.</p>
+
+<p>And here is some code:</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>build:
+  docker run --rm <span class="se">\</span>
+    --volume<span class="o">=</span><span class="k">$(</span>PWD<span class="k">)</span>:/srv/jekyll <span class="se">\</span>
+    -it jekyll/builder:<span class="k">$(</span>JEKYLL_VERSION<span class="k">)</span> <span class="se">\</span>
+    jekyll build
+</code></pre>
+</div>
+
+<p>Or some inline code: <code class="highlighter-rouge">const fileName = 'do.xml';</code>.</p>
+
+<p>An image:</p>
+
+<p><img src="/images/cover.jpg" alt="" /></p>
+
+<p>Cool, eh?</p>
+
+</article>
+
+
+  <div class="py2 post-footer bg-warning p-3">
+  <p class="m-0">
+    Hello, my name is Post Footer. If enabled in config (show_post_footer), I am shown below each post.
+  </p>
+</div>
+
+
+
+
+  <div class="center my-5">
+  <div class="likely likely-big">
+    <div class="twitter" >Tweet</div>
+    <div class="facebook">Share</div>
+    <div class="vkontakte">Share</div>
+    <div class="telegram" data-text="Check this out! " >Send</div>
+  </div>
+</div>
+
+
+
+
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  this.page.url = "http://0.0.0.0:4000/features/";
+  this.page.identifier = "/features";
+  this.page.title = "Features";
+  };
+  
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = '//disqus_xxx.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+</div>
+    </div>
+    <footer class="footer text-muted py-4">
+  <div class="container">
+    <div class="row mt-1">
+      <div class="col text-center">
+        Copyright 2017-2018.
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+</body>
+</html>

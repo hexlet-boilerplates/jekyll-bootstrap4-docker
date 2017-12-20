@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll Bootstrap 4 with Docker</title>
+    <description>Jekyll static blog boilerplate with Bootstrap 4 and Docker</description>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Hello, world!</title>
+        <description>&lt;p&gt;This is a test post.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/tree.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This post does not have &lt;code class=&quot;highlighter-rouge&quot;&gt;summary&lt;/code&gt; specified, so it’s show in full on the front page.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Dec 2017 00:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/hello-world/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/hello-world/</guid>
+      </item>
+    
+      <item>
+        <title>Features</title>
+        <description>&lt;p&gt;Don’t you hate when designers do this: “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ad quo quae at sint nulla architecto quam temporibus dolorum voluptates officiis, accusantium illo officia aliquam, quibusdam velit unde ab hic!”&lt;/p&gt;
+
+&lt;p&gt;A list:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Yes&lt;/li&gt;
+  &lt;li&gt;Maybe&lt;/li&gt;
+  &lt;li&gt;I &lt;strong&gt;guess&lt;/strong&gt; no&lt;/li&gt;
+  &lt;li&gt;Whatever &lt;em&gt;you&lt;/em&gt; need&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Chaotic list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yes&lt;/li&gt;
+  &lt;li&gt;Maybe&lt;/li&gt;
+  &lt;li&gt;I &lt;strong&gt;guess&lt;/strong&gt; no&lt;/li&gt;
+  &lt;li&gt;Whatever &lt;em&gt;you&lt;/em&gt; need&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some headings:&lt;/p&gt;
+
+&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
+
+&lt;p&gt;Ooh, so much white space!&lt;/p&gt;
+
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
+
+&lt;p&gt;We love it.&lt;/p&gt;
+
+&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
+
+&lt;p&gt;Don’t be afraid.&lt;/p&gt;
+
+&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
+
+&lt;p&gt;Don’t use heading 5, you don’t need it.&lt;/p&gt;
+
+&lt;p&gt;And here is some code:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;build:
+  docker run --rm &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    --volume&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;PWD&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;:/srv/jekyll &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    -it jekyll/builder:&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;JEKYLL_VERSION&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    jekyll build
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Or some inline code: &lt;code class=&quot;highlighter-rouge&quot;&gt;const fileName = 'do.xml';&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;An image:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cover.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cool, eh?&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Dec 2017 00:00:00 -0600</pubDate>
+        <link>http://0.0.0.0:4000/features/</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/features/</guid>
+      </item>
+    
+  </channel>
+</rss>
