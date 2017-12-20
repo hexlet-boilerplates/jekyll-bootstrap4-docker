@@ -1,10 +1,13 @@
-# Hexlet Guides
+# Jekyll Bootstrap 4 Boilerplate Theme + Docker
 
-https://hexletguides.github.io
+Building:
 
-## Adding new Guides
+```
+make build
+```
 
-1. Install [Jekyll](https://jekyllrb.com/) `gem install jekyll`
-1. Run `bundle exec jekyll serve --watch`
-1. Add new guide to *_posts*. See example in *_drafts/example.md*.
-1. Go to http://localhost:4000/
+Serving:
+
+```
+make serve
+```
