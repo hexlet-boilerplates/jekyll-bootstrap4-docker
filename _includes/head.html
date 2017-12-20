@@ -31,7 +31,7 @@
     <meta property="og:image" content="{% if page.cover_url %}{{ page.cover_url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ '/images/cover.jpg' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 
     <meta property="og:description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
 
     <!-- Twitter Card -->
@@ -71,8 +71,8 @@
 
     <script src="https://use.fontawesome.com/6d58e09dc1.js"></script>
 
-    <script src="/js/likely.js"></script>
-    <link rel="stylesheet" href="/css/likely.css">
+    <script src="{{"/js/likely.js"  | prepend: site.baseurl}}"></script>
+    <link rel="stylesheet" href="{{"/css/likely.css"  | prepend: site.baseurl }}">
 
     {% if site.google_analytics %}
     <script type="text/javascript">

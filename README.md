@@ -37,3 +37,8 @@ bundle exec jekyll serve
 ```
 
 Then open [http://localhost:4000](http://localhost:4000).
+
+## Todo
+
+- [x] OG-tags support
+- [ ] Bootstrap SASS
