@@ -10,9 +10,7 @@
         <title>Hello, world!</title>
         <description>&lt;p&gt;This is a test post.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/tree.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This post does not have &lt;code class=&quot;highlighter-rouge&quot;&gt;summary&lt;/code&gt; specified, so it’s show in full on the front page.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/DbN1EzV.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Dec 2017 00:00:00 -0600</pubDate>
         <link>https://hexlet-boilerplates.github.io/jekyll-bootstrap4-docker/hello-world/</link>
@@ -73,7 +71,7 @@
 
 &lt;p&gt;An image:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/cover.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/XYNjBxO.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Cool, eh?&lt;/p&gt;
 </description>
