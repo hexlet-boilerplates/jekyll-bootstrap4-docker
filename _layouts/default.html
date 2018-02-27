@@ -6,6 +6,27 @@
   <div class="container">
     <div class="row">
       <div class="col">{{ content }}</div>
+
+      {% if paginator %}
+        <ul class="pagination">
+          {% if paginator.previous_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.previous_page_path }}">
+                <span aria-hidden="true">&laquo;</span> Previous
+              </a>
+            </li>
+          {% endif %}
+          <li class="page-item"><a class="page-link">Page: {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
+          {% if paginator.next_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.next_page_path }}">
+                Next <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+      {% endif %}
+
     </div>
     {% include footer.html %}
   </div>
